@@ -29,4 +29,9 @@ $(document).ready(function() {
         alert("E' avvenuto un errore. "+error);
       }//chiusura funzione errore
     });//chiusura chiamata ajax
+    $(".menu .menu-icon i").click(
+      function(){
+        $(".menu-in").toggle();
+      }
+    )
 });

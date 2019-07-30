@@ -6,6 +6,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
@@ -14,9 +15,33 @@
                 <img src="logo.png" alt="logo" />
             </div>
         </header>
+          <div class="menu">
+            <div class="menu-icon">
 
+              <h2>Seleziona Genere</h2>
+              <i class="fas fa-caret-down menuicona"></i>
+            </div>
+            <div class="menu-in">
+
+
+            <ul>
+              <a href="#">
+                <li id="rock">rock</li>
+              </a>
+              <a href="#">
+                <li id=pop>pop</li>
+              </a>
+              <a href="#">
+                <li id="jazz">jazz</li>
+              </a>
+              <a href="#">
+                <li id="metal">metal</li>
+              </a>
+            </ul>
+            </div>
+          </div>
         <div class="cds-container container">
-            
+
 
         </div>
         <script id="template" type="text/x-handlebars-template">

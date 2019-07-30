@@ -5,13 +5,48 @@
     box-sizing: border-box;
 }
 #template{
-  display:none; 
+  display:none;
 }
 body {
     background: #1E2D3B;
     min-height: 100vh;
 }
+.menu{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.menu-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-in{
+  display: none;
+  text-align: center;
 
+}
+.menu-in a{
+  text-decoration: none;
+}
+.menu-in  a li{
+  color:white;
+  padding:10px 10px;
+
+}
+.menu-in a li:hover{
+  background:gray;
+  color:black;
+}
+.menuicona{
+  font-size:25px;
+  color:white;
+  margin-left:20px;
+}
+.menu-in ul li{
+  list-style: none;
+}
 .container {
     width: 1070px;
     height: 100%;
