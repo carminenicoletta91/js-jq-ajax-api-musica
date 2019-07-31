@@ -21,12 +21,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  color:white;
 }
 .menu-in{
   display: none;
   text-align: center;
   width:150px;
-   
+
 }
 .menu-in a{
   text-decoration: none;
@@ -39,12 +40,13 @@ body {
   list-style-type: none;
 }
 .menu-in a li:hover{
-  background:gray;
+  background:rgb(46, 58, 70);
   color:black;
 }
 .menuicona{
   font-size:25px;
-  color:white;
+  color:black;
+  color:rgb(46, 158, 70);
   margin-left:20px;
 }
 

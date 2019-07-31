@@ -7,7 +7,8 @@ $(document).ready(function() {
   $.ajax({//chiamata ajax alla mia api
       url:"https://flynn.boolean.careers/exercises/api/array/music",
       method:"GET",
-      success:function(data){//in caso di successo
+      success:function(data){
+        if(data.success){//in caso di successo
         var disco = (data.response);
         console.log(disco);
         var element;
@@ -44,10 +45,10 @@ $(document).ready(function() {
           $(".cds-container.container").append(html);
 
         }//chiusura ciclo for
+        }//chiusura if success
       },//chiusura funzione success
-
-      error : function (richiesta,stato,error) {//in caso di errore nella chiamata
-        alert("E' avvenuto un errore. "+error);
+      error : function (error) {//in caso di errore nella chiamata
+        alert("E' avvenuto un errore. "+error.response);
       }//chiusura funzione errore
     });//chiusura chiamata ajax
 
