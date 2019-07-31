@@ -25,15 +25,18 @@ body {
 .menu-in{
   display: none;
   text-align: center;
-
+  width:150px;
+   
 }
 .menu-in a{
   text-decoration: none;
 }
+
 .menu-in  a li{
   color:white;
-  padding:10px 10px;
-
+  padding:15px 15px;
+  margin-top:10px;
+  list-style-type: none;
 }
 .menu-in a li:hover{
   background:gray;
@@ -44,9 +47,7 @@ body {
   color:white;
   margin-left:20px;
 }
-.menu-in ul li{
-  list-style: none;
-}
+
 .container {
     width: 1070px;
     height: 100%;
